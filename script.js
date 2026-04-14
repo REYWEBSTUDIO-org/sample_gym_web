@@ -19,3 +19,7 @@ form.addEventListener("submit", function(e) {
 function hireMe() {
   window.open("https://mail.google.com/mail/?view=cm&fs=1&to=your@email.com&su=Gym Inquiry&body=Hi I want to join HITGYM");
 }
+function toggleMenu() {
+  let menu = document.querySelector(".nav-links");
+  menu.classList.toggle("active");
+}
